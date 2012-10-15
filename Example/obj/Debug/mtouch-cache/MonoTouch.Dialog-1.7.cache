@@ -1,0 +1,1 @@
+--debug --aot=mtriple=armv7-darwin,full,static,asmonly,direct-icalls,no-direct-calls,iphone-abi,outfile=/MonoTouch.Dialog-1.dll.7.s "/Users/satyendrakumar/Projects/Example/Example/bin/iPhone/Debug/Example.app/MonoTouch.Dialog-1.dll"

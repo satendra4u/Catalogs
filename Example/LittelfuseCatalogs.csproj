@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{557452DF-EA23-4018-82E7-E6D956C4D912}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LittelfuseCatalogs</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Example</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchProfiling>True</MtouchProfiling>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchProfiling>True</MtouchProfiling>
+    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchArch>ARMv7</MtouchArch>
+    <BuildIpa>True</BuildIpa>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <BuildIpa>True</BuildIpa>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="MonoTouch.Dialog-1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="ZoomingPdfViewer.userprefs" />
+    <None Include="Images\.DS_Store" />
+    <None Include="Images\Icons\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="CatalogsViewController.cs" />
+    <Compile Include="CatalogsViewController.designer.cs">
+      <DependentUpon>CatalogsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebViewController.cs" />
+    <Compile Include="WebViewController.designer.cs">
+      <DependentUpon>WebViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyAlertViewDelegate.cs" />
+    <Compile Include="TableViewDelegate.cs" />
+    <Compile Include="TableViewDataSource.cs" />
+    <Compile Include="BriefCaseViewController.cs" />
+    <Compile Include="BriefCaseViewController.designer.cs">
+      <DependentUpon>BriefCaseViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDocumentView.cs" />
+    <Compile Include="PdfScrollView.cs" />
+    <Compile Include="TiledPdfView.cs" />
+    <Compile Include="ZoomingPdfViewerViewController.cs" />
+    <Compile Include="ZoomingPdfViewerViewController.designer.cs" />
+    <Compile Include="MyActionSheetViewDelegate.cs" />
+    <Compile Include="TableItem.cs" />
+    <Compile Include="TableSource.cs" />
+    <Compile Include="ActivityIndicator.cs" />
+    <Compile Include="AppDelegate.designer.cs">
+      <DependentUpon>AppDelegate.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <InterfaceDefinition Include="CatalogsViewController.xib" />
+    <InterfaceDefinition Include="WebViewController.xib" />
+    <InterfaceDefinition Include="BriefCaseViewController.xib" />
+    <InterfaceDefinition Include="ZoomingPdfViewerViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pdfs\Tamarin.pdf" />
+    <Content Include="Images\Bulbs.jpg" />
+    <Content Include="Images\Bulbs%402x.jpg" />
+    <Content Include="Images\Flower Buds.jpg" />
+    <Content Include="Images\Flower Buds%402x.jpg" />
+    <Content Include="Images\Fruits.jpg" />
+    <Content Include="Images\Fruits%402x.jpg" />
+    <Content Include="Images\Legumes.jpg" />
+    <Content Include="Images\Legumes%402x.jpg" />
+    <Content Include="Images\Tubers.jpg" />
+    <Content Include="Images\Tubers%402x.jpg" />
+    <Content Include="Images\Vegetables.jpg" />
+    <Content Include="Images\Vegetables%402x.jpg" />
+    <Content Include="Images\Icons\114_icon.png" />
+    <Content Include="Images\Icons\29_icon.png" />
+    <Content Include="Images\Icons\50_icon.png" />
+    <Content Include="Images\Icons\512_icon.png" />
+    <Content Include="Images\Icons\57_icon.png" />
+    <Content Include="Images\Icons\58_icon.png" />
+    <Content Include="Images\Icons\72_icon.png" />
+    <Content Include="Images\Icon-72.png" />
+    <Content Include="Images\Icon.png" />
+    <Content Include="Images\MainIcon.png" />
+    <Content Include="Images\News-icon1.png" />
+    <Content Include="Images\News-icon1_1024.png" />
+    <Content Include="Images\News-icon1_960x600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pdfs\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+</Project>

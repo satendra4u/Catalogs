@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4457E0000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577C07800000000000000000 /* UIKit.framework */; };
+		95521C000000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E888A5800000000000000000 /* MapKit.framework */; };
+		AA1E18000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265EBA000000000000000000 /* Foundation.framework */; };
+		6434CE800000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32830800000000000000000 /* CoreGraphics.framework */; };
+		E2B38D800000000000000000 /* CatalogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7066000000000000000000 /* CatalogsViewController.xib */; };
+		8F7D04000000000000000000 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB39DC800000000000000000 /* WebViewController.xib */; };
+		2089A2000000000000000000 /* BriefCaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C467A800000000000000000 /* BriefCaseViewController.xib */; };
+		E90FF1000000000000000000 /* ZoomingPdfViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC98000000000000000000 /* ZoomingPdfViewerViewController.xib */; };
+		7A1C8F000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B19640000000000000000000 /* AppDelegate.h */; };
+		B7F2A3800000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C54800000000000000000 /* AppDelegate.m */; };
+		64BC1A000000000000000000 /* CatalogsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8078F2800000000000000000 /* CatalogsViewController.h */; };
+		DA0BDF800000000000000000 /* CatalogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8B8000000000000000000 /* CatalogsViewController.m */; };
+		86D556000000000000000000 /* WebViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A2922E800000000000000000 /* WebViewController.h */; };
+		E06843000000000000000000 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC251B800000000000000000 /* WebViewController.m */; };
+		7174E1000000000000000000 /* BriefCaseViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A8EE92000000000000000000 /* BriefCaseViewController.h */; };
+		2817F0000000000000000000 /* BriefCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FB30000000000000000000 /* BriefCaseViewController.m */; };
+		CB07CE000000000000000000 /* ZoomingPdfViewerViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = E6C4A6800000000000000000 /* ZoomingPdfViewerViewController.h */; };
+		5C146C000000000000000000 /* ZoomingPdfViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D144800000000000000000 /* ZoomingPdfViewerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0668000000000000000000 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Example.app"; path = "Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		577C07800000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		E888A5800000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		265EBA000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		D32830800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		FE7066000000000000000000 /* CatalogsViewController.xib */ = {isa = PBXFileReference; name = "CatalogsViewController.xib"; path = "CatalogsViewController.xib"; sourceTree = "<group>"; };
+		AB39DC800000000000000000 /* WebViewController.xib */ = {isa = PBXFileReference; name = "WebViewController.xib"; path = "WebViewController.xib"; sourceTree = "<group>"; };
+		3C467A800000000000000000 /* BriefCaseViewController.xib */ = {isa = PBXFileReference; name = "BriefCaseViewController.xib"; path = "BriefCaseViewController.xib"; sourceTree = "<group>"; };
+		4CCC98000000000000000000 /* ZoomingPdfViewerViewController.xib */ = {isa = PBXFileReference; name = "ZoomingPdfViewerViewController.xib"; path = "ZoomingPdfViewerViewController.xib"; sourceTree = "<group>"; };
+		B19640000000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		EF6C54800000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		8078F2800000000000000000 /* CatalogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CatalogsViewController.h"; path = "CatalogsViewController.h"; sourceTree = "<group>"; };
+		F5C8B8000000000000000000 /* CatalogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CatalogsViewController.m"; path = "CatalogsViewController.m"; sourceTree = "<group>"; };
+		A2922E800000000000000000 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WebViewController.h"; path = "WebViewController.h"; sourceTree = "<group>"; };
+		FC251B800000000000000000 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WebViewController.m"; path = "WebViewController.m"; sourceTree = "<group>"; };
+		A8EE92000000000000000000 /* BriefCaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BriefCaseViewController.h"; path = "BriefCaseViewController.h"; sourceTree = "<group>"; };
+		39FB30000000000000000000 /* BriefCaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BriefCaseViewController.m"; path = "BriefCaseViewController.m"; sourceTree = "<group>"; };
+		E6C4A6800000000000000000 /* ZoomingPdfViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ZoomingPdfViewerViewController.h"; path = "ZoomingPdfViewerViewController.h"; sourceTree = "<group>"; };
+		77D144800000000000000000 /* ZoomingPdfViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ZoomingPdfViewerViewController.m"; path = "ZoomingPdfViewerViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD3F0000000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4457E0000000000000000000 /* UIKit.framework in Frameworks */,
+				95521C000000000000000000 /* MapKit.framework in Frameworks */,
+				AA1E18000000000000000000 /* Foundation.framework in Frameworks */,
+				6434CE800000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF0E0000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				F54D43800000000000000000 /* Example */,
+				EBC2AE400000000000000000 /* Frameworks */,
+				4883CD000000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4883CD000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0668000000000000000000 /* Example.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		EBC2AE400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577C07800000000000000000 /* UIKit.framework */,
+				E888A5800000000000000000 /* MapKit.framework */,
+				265EBA000000000000000000 /* Foundation.framework */,
+				D32830800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		F54D43800000000000000000 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B19640000000000000000000 /* AppDelegate.h */,
+				A8EE92000000000000000000 /* BriefCaseViewController.h */,
+				3C467A800000000000000000 /* BriefCaseViewController.xib */,
+				8078F2800000000000000000 /* CatalogsViewController.h */,
+				FE7066000000000000000000 /* CatalogsViewController.xib */,
+				A2922E800000000000000000 /* WebViewController.h */,
+				AB39DC800000000000000000 /* WebViewController.xib */,
+				E6C4A6800000000000000000 /* ZoomingPdfViewerViewController.h */,
+				4CCC98000000000000000000 /* ZoomingPdfViewerViewController.xib */,
+				E2BDFC000000000000000000 /* Supporting Files */,
+			);
+			name = "Example";
+			sourceTree = "<group>";
+		};
+		E2BDFC000000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C54800000000000000000 /* AppDelegate.m */,
+				39FB30000000000000000000 /* BriefCaseViewController.m */,
+				F5C8B8000000000000000000 /* CatalogsViewController.m */,
+				FC251B800000000000000000 /* WebViewController.m */,
+				77D144800000000000000000 /* ZoomingPdfViewerViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8626E0000000000000000000 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586AC5C00000000000000000 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				F13053800000000000000000 /* Sources */,
+				EAD3F0000000000000000000 /* Frameworks */,
+				28AA04800000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example";
+			productName = "Example";
+			productReference = 2F0668000000000000000000 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266953000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { };
+			buildConfigurationList = 5343C4000000000000000000 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEF0E0000000000000000000;
+			productRefGroup = 4883CD000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8626E0000000000000000000 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28AA04800000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B38D800000000000000000 /* CatalogsViewController.xib in Resources */,
+				8F7D04000000000000000000 /* WebViewController.xib in Resources */,
+				2089A2000000000000000000 /* BriefCaseViewController.xib in Resources */,
+				E90FF1000000000000000000 /* ZoomingPdfViewerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13053800000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C8F000000000000000000 /* AppDelegate.h in Sources */,
+				B7F2A3800000000000000000 /* AppDelegate.m in Sources */,
+				64BC1A000000000000000000 /* CatalogsViewController.h in Sources */,
+				DA0BDF800000000000000000 /* CatalogsViewController.m in Sources */,
+				86D556000000000000000000 /* WebViewController.h in Sources */,
+				E06843000000000000000000 /* WebViewController.m in Sources */,
+				7174E1000000000000000000 /* BriefCaseViewController.h in Sources */,
+				2817F0000000000000000000 /* BriefCaseViewController.m in Sources */,
+				CB07CE000000000000000000 /* ZoomingPdfViewerViewController.h in Sources */,
+				5C146C000000000000000000 /* ZoomingPdfViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE91A800000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		19A5F3000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5343C4000000000000000000 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE91A800000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		586AC5C00000000000000000 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5F3000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266953000000000000000000 /* Project object */;
+}

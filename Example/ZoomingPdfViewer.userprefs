@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZoomingPdfViewerViewController.cs">
+    <Files>
+      <File FileName="AppDelegate.cs" Line="2" Column="27" />
+      <File FileName="Main.cs" Line="1" Column="1" />
+      <File FileName="PdfScrollView.cs" Line="66" Column="24" />
+      <File FileName="Info.plist" />
+      <File FileName="TiledPdfView.cs" Line="1" Column="1" />
+      <File FileName="ZoomingPdfViewerViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ZoomingPdfViewer" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="TiledPdfView.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Environment.SpecialFolder.CommonProgramFiles</Value>
+          <Value>tableView.IndexPathsForVisibleRows</Value>
+          <Value>uri</Value>
+          <Value>uri</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

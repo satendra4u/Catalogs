@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="LittelfuseCatalogs" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Environment.SpecialFolder.CommonProgramFiles</Value>
+          <Value>tableView.IndexPathsForVisibleRows</Value>
+          <Value>uri</Value>
+          <Value>uri</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/BriefCaseViewController.cs" line="51" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/MyDocumentView.cs" line="21" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/PdfScrollView.cs" line="50" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/MyAlertViewDelegate.cs" line="34" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/MyAlertViewDelegate.cs" line="27" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/MyAlertViewDelegate.cs" line="38" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/TableViewDelegate.cs" line="52" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/BriefCaseViewController.cs" line="38" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/MyActionSheetViewDelegate.cs" line="58" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/TableViewDelegate.cs" line="68" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/TableViewDelegate.cs" line="42" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/ActivityIndicator.cs" line="17" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/ActivityIndicator.cs" line="22" />
+      <Breakpoint enabled="false" file="/Users/satyendrakumar/Projects/Example/Example/ActivityIndicator.cs" line="28" />
+      <Breakpoint file="/Users/satyendrakumar/Projects/Example/Example/MyActionSheetViewDelegate.cs" line="53" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
